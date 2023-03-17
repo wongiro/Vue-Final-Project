@@ -49,4 +49,29 @@
   border-radius: 1rem 2rem;
   padding: 5px;
 }
+
+/* Media queries for responsive design */
+
+@media only screen and (max-width: 768px) {
+  #nav {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 10px;
+  }
+
+  #nav a {
+    margin: 5px;
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  #nav {
+    padding: 5px;
+  }
+
+  #nav a {
+    font-size: 12px;
+  }
+}
 </style>

@@ -139,5 +139,40 @@
     opacity: 0.5;
     cursor: not-allowed;
   }
+
+  /* Media queries */
+  @media (max-width: 768px) {
+    .container {
+      max-width: 90%;
+    }
+  }
+
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 1.5rem;
+      margin-top: 1.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .repo-list li {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .repo-list li a {
+      font-size: 1rem;
+    }
+
+    .pagination {
+      margin-top: 1.5rem;
+    }
+
+    .pagination button {
+      font-size: 1rem;
+      padding: 0.25rem 0.5rem;
+      margin: 0 0.25rem;
+      border-radius: 0
+    }
+  }
   </style>
   
