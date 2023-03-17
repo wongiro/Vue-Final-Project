@@ -11,9 +11,9 @@
         <a class="btn" :href="user.html_url" target="_blank">View on GitHub</a>
       </div>
     </div>
-  </template>
+</template>
   
-  <script>
+<script>
   export default {
     data() {
       return {
@@ -28,30 +28,30 @@
         console.error(error);
       }
     }
-  }
-  </script>
+}
+</script>
   
-  <style scoped>
-  * {
+<style scoped>
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-  }
+}
   
-  body {
+body {
     font-family: "Open Sans", sans-serif;
     background-color: #f7f7f7;
-  }
+}
   
-  .container {
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: auto;
-  }
+}
   
-  .profile {
+ .profile {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -61,9 +61,9 @@
     background-color: #fff;
     max-width: 700px;
     width: 100%;
-  }
+}
   
-  .avatar {
+.avatar {
     width: 150px;
     height: 150px;
     border-radius: 50%;
@@ -71,36 +71,36 @@
     margin-bottom: 1.5rem;
     border: 5px solid #fff;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-  }
+}
   
-  h1 {
+h1 {
     font-size: 2.5rem;
     font-weight: 700;
     color: #333;
     margin-bottom: 1rem;
     text-align: center;
-  }
+}
   
-  p {
+p {
     font-size: 1.2rem;
     color: #666;
     margin-bottom: 1rem;
     text-align: center;
-  }
+}
   
-  .info {
+.info {
     font-size: 1.2rem;
     color: #666;
     margin-bottom: 0.5rem;
     text-align: center;
-  }
+}
   
-  .label {
+.label {
     font-weight: 700;
     color: #333;
-  }
+}
   
-  .btn {
+.btn {
     display: inline-block;
     padding: 0.75rem 2rem;
     border-radius: 2rem 3rem;
@@ -112,15 +112,15 @@
     letter-spacing: 0.1rem;
     margin-top: 1.5rem;
     transition: background-color 0.3s ease;
-  }
+}
   
-  .btn:hover {
+.btn:hover {
     background-color: #000;
-  }
+}
 
-/* MEDAI QUERY  */
+/* MEDAI QUERY */
 
-  @media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   .profile {
     padding: 15px;
   }

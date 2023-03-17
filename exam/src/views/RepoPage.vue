@@ -13,9 +13,9 @@
         <button class="next" :disabled="currentPage * perPage >= allRepos.length" @click="currentPage++">Next</button>
       </div>
     </div>
-  </template>
+</template>
   
-  <script>
+<script>
     export default {
       data() {
         return {
@@ -43,30 +43,30 @@
 
 
     }
-  </script>
+</script>
   
-  <style>
-  .container {
+<style>
+.container {
     max-width: 800px;
     margin: 0 auto;
     padding: 0 20px;
-  }
+}
   
-  h1 {
+h1 {
     margin-top: 2rem;
     margin-bottom: 1.5rem;
     font-size: 2rem;
     font-weight: bold;
     color: #333;
-  }
+}
   
-  .repo-list {
+.repo-list {
     list-style: none;
     margin: 0;
     padding: 0;
-  }
+}
   
-  .repo-list li {
+.repo-list li {
     display: flex;
     align-items: center;
     margin-bottom: 1rem;
@@ -74,28 +74,28 @@
     border: 1px solid #ccc;
     border-radius: 0.5rem;
     background-color: #fff;
-  }
+}
   
-  .repo-list li a {
+.repo-list li a {
     color: #333;
     font-weight: bold;
     font-size: 1.2rem;
     text-decoration: none;
     transition: color 0.2s ease-in-out;
-  }
+}
   
-  .repo-list li a:hover {
+.repo-list li a:hover {
     color: #0077b6;
-  }
+}
   
-  .pagination {
+.pagination {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 2rem;
-  }
+}
   
-  .pagination button.prev{
+.pagination button.prev{
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -111,9 +111,9 @@
     text-decoration: none;
     cursor: pointer;
     transition: background-color 0.2s ease-in-out;
-  }
+}
 
-  .pagination button.next{
+.pagination button.next{
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -129,25 +129,25 @@
     text-decoration: none;
     cursor: pointer;
     transition: background-color 0.2s ease-in-out;
-  }
+}
   
-  .pagination button:hover {
+.pagination button:hover {
     background-color: #023e8a;
-  }
+}
   
-  .pagination button:disabled {
+.pagination button:disabled {
     opacity: 0.5;
     cursor: not-allowed;
-  }
+}
 
-  /* Media queries */
-  @media (max-width: 768px) {
+/* Media queries */
+@media (max-width: 768px) {
     .container {
       max-width: 90%;
     }
-  }
+}
 
-  @media (max-width: 480px) {
+@media (max-width: 480px) {
     h1 {
       font-size: 1.5rem;
       margin-top: 1.5rem;
@@ -173,6 +173,6 @@
       margin: 0 0.25rem;
       border-radius: 0
     }
-  }
-  </style>
+}
+</style>
   
