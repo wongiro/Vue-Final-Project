@@ -1,6 +1,7 @@
 <template>
   <div id="nav">
-    <router-link to="/">Repositories</router-link>
+    <router-link to="/">Home</router-link>
+    <router-link to="/repo">Repositories</router-link>
     <router-link to="/details">Repository Details</router-link>
   </div>
   <router-view />
@@ -14,8 +15,7 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
-  border: 2px solid red;
+  margin-top: 30px;
   height: 100%;
 }
 
