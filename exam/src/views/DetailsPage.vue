@@ -115,7 +115,7 @@
   .language,
   .stars,
   .forks {
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
 }
 </style>
