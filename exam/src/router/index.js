@@ -2,15 +2,21 @@ import { createRouter, createWebHistory } from "vue-router";
 import RepoPage from '../views/RepoPage.vue'
 import DetailsPage from '../views/DetailsPage.vue'
 import NotFound from '../views/NotFound'
+import HomePage from '../views/HomePage'
 
 const routes = [
     {
         path: '/',
+        name: 'Home',
+        component: HomePage
+    },
+    {
+        path: '/repo',
         name: 'RepoPage',
         component: RepoPage
     },
     {
-        path: '/details',
+        path: '/details/:id',
         name: 'DetailsPage',
         component: DetailsPage
     },

@@ -1,11 +1,16 @@
 <template>
     <div class="error-page">
       <h1 class="error-title">404 Error: Page Not Found</h1>
-      <p class="error-text">Oops! The page you are looking for doesn't exist. Please check the URL and try again.</p>
+      <p class="error-text">Oops! The page you are looking for doesn't exist.</p>
       <router-link to="/" class="error-link">Back to my Repositories</router-link>
     </div>
 </template>
-  
+
+<script>
+    export default{
+        name : "NotFound"
+    }
+</script>
 
 <style scoped>
 .error-page {
@@ -13,13 +18,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100%;
+  height: 100vh;
   font-family: sans-serif;
   background-color: #f8f8f8;
 }
 
 .error-title {
-  font-size: 5rem;
+  font-size: 3rem;
   font-weight: bold;
   margin-bottom: 2rem;
   color: #333;
