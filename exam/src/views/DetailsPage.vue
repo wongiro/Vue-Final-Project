@@ -8,9 +8,9 @@
         <p class="forks">Forks: {{ repository.forks_count }}</p>
       </div>
     </div>
-  </template>
+</template>
   
-  <script>
+<script>
   export default {
     data() {
       return {
@@ -26,62 +26,62 @@
       }
     }
   }
-  </script>
+</script>
   
-  <style>
-  .container {
+<style>
+.container {
     max-width: 800px;
     margin: 0 auto;
     padding: 0 20px;
-  }
+}
   
-  .title {
+.title {
     margin-top: 2rem;
     margin-bottom: 1rem;
     font-size: 2rem;
     font-weight: bold;
     color: #333;
-  }
+}
   
   .description {
     margin-bottom: 2rem;
     font-size: 1.2rem;
     line-height: 1.5;
     color: #555;
-  }
+}
   
-  .details {
+.details {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 2rem;
-  }
+}
   
-  .language,
-  .stars,
-  .forks {
+.language,
+.stars,
+.forks {
     font-size: 1.2rem;
     font-weight: bold;
     color: #333;
-  }
+}
   
-  .stars::before,
-  .forks::before {
+.stars::before,
+.forks::before {
     display: inline-block;
     margin-right: 0.5rem;
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
-  }
+}
   
-  .stars::before {
+.stars::before {
     content: "\f005";
     color: #ffd700;
-  }
+}
   
-  .forks::before {
+.forks::before {
     content: "\f126";
     color: #888;
-  }
+}
 
 /* Media queries for responsive layout */
 
