@@ -117,5 +117,44 @@
   .btn:hover {
     background-color: #000;
   }
-  </style>
+
+/* MEDAI QUERY  */
+
+  @media only screen and (max-width: 768px) {
+  .profile {
+    padding: 15px;
+  }
+  
+  .avatar {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 1rem;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  p {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .info {
+    font-size: 1rem;
+    margin-bottom: 0.25rem;
+  }
+  
+  .label {
+    font-size: 1rem;
+  }
+  
+  .btn {
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+}
+</style>
   

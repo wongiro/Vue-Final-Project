@@ -82,5 +82,41 @@
     content: "\f126";
     color: #888;
   }
-  </style>
+
+/* Media queries for responsive layout */
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 10px;
+  }
+  .title {
+    font-size: 1.5rem;
+  }
+  .description {
+    font-size: 1rem;
+  }
+  .language,
+  .stars,
+  .forks {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    padding: 0 5px;
+  }
+  .title {
+    font-size: 1.2rem;
+  }
+  .description {
+    font-size: 0.9rem;
+  }
+  .language,
+  .stars,
+  .forks {
+    font-size: 0.9rem;
+  }
+}
+</style>
   
